@@ -13,6 +13,10 @@ const Missions = () => {
   if (status === 'succeeded') {
     return (
       <div className={styles['missions-list']}>
+        <div className={styles['missions-list-header']}>
+          <p>Mission</p>
+          <p>Description</p>
+        </div>
         {missions.map((mission) => (
           <Mission
             key={mission.mission_id}
