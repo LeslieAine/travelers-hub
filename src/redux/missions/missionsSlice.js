@@ -27,7 +27,7 @@ const missionsSlice = createSlice({
       return {
         ...state,
         missions: state.missions.map((mission) => {
-          if (mission.mission_id === payload) return { ...mission, reserved: true };
+          if (mission.mission_id === payload) return { ...mission, reserved: !mission.reserved };
           return mission;
         }),
       };
@@ -43,6 +43,7 @@ const missionsSlice = createSlice({
             mission_name: item.mission_name,
             mission_id: item.mission_id,
             description: item.description,
+            reserved: false,
           }
         )),
         status: 'succeeded',

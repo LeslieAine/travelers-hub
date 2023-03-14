@@ -8,7 +8,7 @@ const Mission = ({
 }) => {
   const dispatch = useDispatch();
   const joinHandler = () => {
-    if (!reserved) dispatch(setReserved(id));
+    dispatch(setReserved(id));
   };
   return (
 

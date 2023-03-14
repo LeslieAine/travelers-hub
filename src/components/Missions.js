@@ -24,7 +24,7 @@ const Missions = () => {
             id={mission.mission_id}
             name={mission.mission_name}
             description={mission.description}
-            reserved={mission.reserved ? mission.reserved : false}
+            reserved={mission.reserved}
           />
         ))
 }
