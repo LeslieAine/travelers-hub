@@ -16,6 +16,8 @@ const Missions = () => {
         <div className={styles['missions-list-header']}>
           <p>Mission</p>
           <p>Description</p>
+          <p>Status</p>
+          <p />
         </div>
         {
         missions.map((mission) => (

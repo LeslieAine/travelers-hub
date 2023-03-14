@@ -8,16 +8,18 @@
   display: flex;
 }
 
-.missions-list-header p:nth-child(1) {
+.missions-list-header p:nth-child(1),
+.missions-list-header p:nth-child(3),
+.missions-list-header p:nth-child(4) {
   border: 1px solid #eee;
-  flex-basis: 7%;
+  flex-basis: 10%;
   padding: 0.5rem;
   margin: 0;
 }
 
 .missions-list-header p:nth-child(2) {
   border: 1px solid #eee;
-  flex-basis: 93%;
+  flex-basis: 70%;
   padding: 0.5rem;
   margin: 0;
 }
