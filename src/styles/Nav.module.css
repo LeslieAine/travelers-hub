@@ -4,3 +4,7 @@
   align-items: center;
   background-color: #eee;
 }
+
+.nav a {
+  text-decoration: none;
+}
