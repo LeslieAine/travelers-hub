@@ -1,5 +1,7 @@
+import ProfileMissions from './ProfileMissions';
+
 const MyProfile = () => (
-  <div>My Profile</div>
+  <ProfileMissions />
 );
 
 export default MyProfile;
