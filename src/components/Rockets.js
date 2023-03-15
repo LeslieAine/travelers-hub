@@ -1,6 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
-// eslint-disable-next-line object-curly-newline
 import { fetchRockets, reserveRocket } from '../redux/rockets/rocketsSlice';
 import styles from '../styles/Rockets.module.css';
 
@@ -15,7 +14,7 @@ const Rockets = () => {
 
   const rockets = rocketLists.map((each) => (
     <article key={each.id} className={styles.article}>
-      <img src={each.flickr_images} className={styles.img} alt="rocket" />
+      <img src={each.flickr_images[0]} className={styles.img} alt="rocket" />
       <div>
         <h2 className={styles.title}>{each.name}</h2>
         <p>
