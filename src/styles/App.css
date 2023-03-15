@@ -1,4 +1,3 @@
 .active {
-  text-decoration: underline;
-  color: orange;
+  border-bottom: 1px solid #000;
 }

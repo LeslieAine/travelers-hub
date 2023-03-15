@@ -1,0 +1,21 @@
+
+.mission {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission:nth-child(even) {
+  background-color: #ddd;
+}
+
+.name {
+  border: 1px solid #eee;
+  flex-basis: 7%;
+  padding: 0.5rem;
+}
+
+.description {
+  border: 1px solid #eee;
+  flex-basis: 93%;
+  padding: 0.5rem;
+}
