@@ -5,7 +5,17 @@
   background-color: #eee;
 }
 
+.nav img {
+  width: 5rem;
+  padding: 0.5rem;
+}
+
+.nav ul {
+  list-style: none;
+}
+
 .nav a {
+  color: #000;
   text-decoration: none;
 }
 
