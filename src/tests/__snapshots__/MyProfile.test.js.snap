@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Render MyProfile Component 1`] = `
+Array [
+  <p>
+    pending...
+  </p>,
+  <div
+    className="container"
+  >
+    <div />
+    <div
+      className="rocket"
+    >
+      <h2>
+        My Rockets
+      </h2>
+      <table
+        className="table"
+      >
+        <tbody
+          className="tbody"
+        />
+      </table>
+    </div>
+  </div>,
+]
+`;
