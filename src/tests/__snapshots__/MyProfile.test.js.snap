@@ -5,6 +5,9 @@ Array [
   <p>
     pending...
   </p>,
+  <p>
+    No joined missions yet
+  </p>,
   <div
     className="container"
   >
