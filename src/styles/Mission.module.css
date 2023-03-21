@@ -1,0 +1,50 @@
+
+.mission {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission:nth-child(even) {
+  background-color: #ddd;
+}
+
+.name,
+.status,
+.action {
+  border: 1px solid #eee;
+  flex-basis: 10%;
+  padding: 0.5rem;
+}
+
+.description {
+  border: 1px solid #eee;
+  flex-basis: 70%;
+  padding: 0.5rem;
+}
+
+.status p {
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 0.1rem 0.2rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: #777;
+  border-radius: 4px;
+  color: white;
+}
+
+.status p.tag-joined {
+  background-color: darkcyan;
+}
+
+.action button {
+  padding: 0.5rem;
+  border: 1px solid #777;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.action button.action-button-joined {
+  border: 1px solid red;
+}
