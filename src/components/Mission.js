@@ -5,7 +5,7 @@ import styles from '../styles/Mission.module.css';
 
 const Tag = ({ status }) => (
   <p className={styles[`${status && 'tag-joined'}`]}>
-    {`${status ? 'Active Member' : 'NOT A MEMBER'}`}
+    `${status ? 'Active Member' : 'NOT A MEMBER'}`
   </p>
 );
 
