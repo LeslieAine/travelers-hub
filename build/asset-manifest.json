@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/travelers-hub/static/css/main.c6195b8c.css",
+    "main.js": "/travelers-hub/static/js/main.ecbc06b5.js",
+    "static/media/planet.png": "/travelers-hub/static/media/planet.3f6fb2742f28651730c0.png",
+    "index.html": "/travelers-hub/index.html",
+    "main.c6195b8c.css.map": "/travelers-hub/static/css/main.c6195b8c.css.map",
+    "main.ecbc06b5.js.map": "/travelers-hub/static/js/main.ecbc06b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6195b8c.css",
+    "static/js/main.ecbc06b5.js"
+  ]
+}
